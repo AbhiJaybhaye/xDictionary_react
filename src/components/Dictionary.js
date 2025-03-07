@@ -25,11 +25,10 @@ const Dictionary = () => {
       />
 
       <button onClick={handleSearch}>Search</button>
-
+      <br/>
+      <strong>Definition:</strong>
       {definition && (
         <>
-          <br />
-          <strong>Definition:</strong>
           <p>{definition}</p>
         </>
       )}
